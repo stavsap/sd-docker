@@ -100,5 +100,6 @@ cd tortoise-tts-fast
 pip install -e .
 pip install git+https://github.com/152334H/BigVGAN.git
 python3 -m pip install streamlit
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
 python3 -m streamlit run scripts/app.py
 ```
