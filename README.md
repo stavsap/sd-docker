@@ -4,11 +4,12 @@ The build and the first time run takes several minutes, just be patient.
 
 if run-docker.bat is used, modify the mount to your local file system. the web ui will be at localhost:8080
 
-
 # Stable Diffuaion A1111 on WSL 2.0
 ## Install WSL 2.0 Ubuntu Distro via CMD or download 
 
 [WSL Manual](https://github.com/MicrosoftDocs/WSL/blob/main/WSL/install-manual.md)
+
+Install Manual: https://aka.ms/wslubuntu2204
 
 in WSL ubuntu shell:
 
