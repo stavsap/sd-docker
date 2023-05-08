@@ -34,7 +34,7 @@ cd stable-diffusion-webui
 
 ### Networking
 
-Get the IP of the ubuntu instance:
+Get the IP of the ubuntu instance, in ubuntu shell:
 
 ``` shell
 ip addr show
@@ -44,11 +44,13 @@ make port proxy from windows host
 
 [WSL Networking](https://learn.microsoft.com/en-us/windows/wsl/networking)
 
+in windows CMD type:
+
 ``` shell
 netsh interface portproxy add v4tov4 listenport=4000 listenaddress=0.0.0.0 connectport=7860 connectaddress=<your-ubuntu-ip>
 ```
 
-access via http://localhost:4000
+in browser, access via http://localhost:4000
 
 ### File System
 
