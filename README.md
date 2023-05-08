@@ -71,7 +71,7 @@ For example for Ubuntu Distro
 \\wsl$\Ubuntu
 ```
 
-## Install Tortis on WSL 2.0 (Ubuntu)
+## Install Tortoise-TTS-Fast on WSL 2.0 (Ubuntu)
 
 ``` shell
 sudo apt-get update
