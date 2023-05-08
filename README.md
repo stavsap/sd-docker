@@ -1,4 +1,4 @@
-# Stable Diffuaion A1111 Docker
+# Stable Diffusion A1111 for Docker on windows or WSL 2.0
 
 The build and the first time run takes several minutes, just be patient.
 
