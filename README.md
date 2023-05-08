@@ -38,6 +38,18 @@ Get the IP of the ubuntu instance:
 ip addr show
 ```
 
+To access files insidde your WSL, type in the file browser
+
+``` shell
+\\wsl$\<Distro>
+```
+
+For example for Ubuntu Distro
+
+``` shell
+\\wsl$\Ubuntu
+```
+
 make port proxy from windows host
 
 [WSL Networking](https://learn.microsoft.com/en-us/windows/wsl/networking)
