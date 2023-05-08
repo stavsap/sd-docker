@@ -29,6 +29,7 @@ sudo apt-get -y install cuda
 
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
+sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--listen --xformers"/' webui-user.sh
 ./webui.sh
 ```
 
