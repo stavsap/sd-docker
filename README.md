@@ -32,22 +32,12 @@ cd stable-diffusion-webui
 ./webui.sh
 ```
 
+### Networking
+
 Get the IP of the ubuntu instance:
 
 ``` shell
 ip addr show
-```
-
-To access files insidde your WSL, type in the file browser
-
-``` shell
-\\wsl$\<Distro>
-```
-
-For example for Ubuntu Distro
-
-``` shell
-\\wsl$\Ubuntu
 ```
 
 make port proxy from windows host
@@ -59,3 +49,17 @@ netsh interface portproxy add v4tov4 listenport=4000 listenaddress=0.0.0.0 conne
 ```
 
 access via http://localhost:4000
+
+### File System
+
+To access files inside your WSL, type in the file browser
+
+``` shell
+\\wsl$\<Distro>
+```
+
+For example for Ubuntu Distro
+
+``` shell
+\\wsl$\Ubuntu
+```
