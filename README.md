@@ -10,7 +10,7 @@ if run-docker.bat is used, modify the mount to your local file system. the web u
 
 Install Distro: https://aka.ms/wslubuntu2204
 
-Note: the default flags enable gardio public access via hugging face dns services, the username and password are harcoded here, so change it or remove share.
+**Note**: the default flags enable gardio public access via hugging face dns services, the username and password are harcoded here, so change it or replace '--share' with '--listen'.
 
 in WSL shell:
 
