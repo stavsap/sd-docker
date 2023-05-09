@@ -103,3 +103,22 @@ python3 -m pip install streamlit
 export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
 python3 -m streamlit run scripts/app.py
 ```
+
+### Kohya SS for WSL 2.0
+
+``` shell
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt install python3.10 python3.10-venv python3-pip git python3.10-tk ffmpeg libsm6 libxext6 libgl1 wget -y
+sudo apt install nvidia-cuda-toolkit -y
+
+git clone https://github.com/bmaltais/kohya_ss
+cd kohya_ss
+./setup.sh -v
+source venv/bin/activate
+pip install bitsandbytes-cuda117
+pip install xformers
+./gui.sh --share
+```
