@@ -106,6 +106,8 @@ python3 -m streamlit run scripts/app.py
 
 ### Kohya SS for WSL 2.0
 
+distro used Install Manual: https://aka.ms/wslubuntu2204
+
 ``` shell
 sudo apt-get update
 sudo apt-get upgrade -y
