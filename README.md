@@ -22,7 +22,7 @@ sudo apt install nvidia-cuda-toolkit -y
 
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
-sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--share --xformers"/' webui-user.sh
+sed -i 's/#export COMMANDLINE_ARGS=""/export COMMANDLINE_ARGS="--share --xformers --enable-insecure-extension-access"/' webui-user.sh
 ./webui.sh
 ```
 
