@@ -52,6 +52,8 @@ python -m streamlit run scripts/app.py
 
 ## Dreambooth (Kohya SS) for WSL 2.0
 
+**Note**: the default flags enable gardio public access via hugging face dns services, the username and password are harcoded here, so change it or replace '--share' with '--listen'.
+
 distro used Install Manual: https://aka.ms/wslubuntu2204
 
 ``` shell
@@ -68,7 +70,7 @@ cd kohya_ss
 source venv/bin/activate
 pip install bitsandbytes-cuda117
 pip install xformers
-./gui.sh --share
+./gui.sh --share --gradio-auth="admin:password"
 ```
 
 ## WSL Info
