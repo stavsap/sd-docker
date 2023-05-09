@@ -71,6 +71,12 @@ pip install xformers
 
 ## WSL Info
 
+### Multi Instances
+
+to run multi instances (many instances of the same distro) please refere to https://endjin.com/blog/2021/11/setting-up-multiple-wsl-distribution-instances
+
+nice gui tool for wsl management: https://github.com/bostrot/wsl2-distro-manager 
+
 ### Networking
 
 Get the IP of the ubuntu instance, in ubuntu shell:
