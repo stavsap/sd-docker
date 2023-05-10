@@ -6,6 +6,7 @@ The build and the first time run takes several minutes, just be patient.
 
 if run-docker.bat is used, modify the mount to your local file system. the web ui will be at localhost:8080
 
+# NOTICE: all WSL scripts are deprecated!!!, new ones are [here](https://github.com/stavsap/generative-ai-wsl2)
 ## Stable Diffusion (A1111) on WSL 2.0
 
 Install Distro: https://aka.ms/wslubuntu2204
