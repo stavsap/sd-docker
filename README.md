@@ -95,6 +95,26 @@ pip install -r requirements.txt
 python src/kubin.py
 ```
 
+## Text Generation Webui 2.1 (Oobabooga) for WSL 2.0
+
+**Note**: the default flags enable gardio public access via hugging face dns services, the username and password are harcoded here, so change it or replace '--share' with '--listen'.
+
+distro used Install Manual: https://aka.ms/wslubuntu2204
+
+``` shell
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt install python3.10 python3.10-venv python3-pip git python3.10-tk ffmpeg libsm6 libxext6 libgl1 wget -y
+sudo apt install nvidia-cuda-toolkit -y
+
+git clone https://github.com/oobabooga/one-click-installers.git
+cd one-click-installers
+chmod +x start_linux.sh
+./start_linux.sh
+```
+
 ## WSL Info
 
 ### Multi Instances
