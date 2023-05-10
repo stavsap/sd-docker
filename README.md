@@ -70,7 +70,7 @@ cd kohya_ss
 source venv/bin/activate
 pip install bitsandbytes-cuda117
 pip install xformers
-./gui.sh --share --gradio-auth="admin:password"
+./gui.sh --share --username admin --password password
 ```
 
 ## WSL Info
